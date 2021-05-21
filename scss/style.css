@@ -13,6 +13,12 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: #1f3f5b;
+  padding: 5px;
+}
+
 .btn-light, .btn-dark {
   cursor: pointer;
   border: none;
@@ -123,13 +129,13 @@ li .nav-li {
   transform: rotate(180deg);
 }
 
-.menu-area > ul > li > ul > a {
+.menu-area > ul > li > ul > li {
   text-decoration: none;
   color: #1f3f5b;
   padding: 5px;
 }
 
-.menu-area > ul > li > ul > a:hover {
+.menu-area > ul > li > ul > li:hover {
   font-weight: bolder;
 }
 
@@ -203,7 +209,7 @@ li .nav-li {
 }
 
 .ham-menu .menu-body a {
-  text-decoration: none;
+  color: #fff;
   padding: 10px;
 }
 

@@ -10,7 +10,6 @@
 
     background-position: 30% 53%;
     height: 80vh;
-    // padding: 30px 150px;
     margin-bottom: 30px;
     border-radius: 0 0 0 100px;
     // overflow: hidden;
@@ -85,13 +84,13 @@ li .nav-li {
     }
 
 
-    & > ul > li > ul > a {
+    & > ul > li > ul > li {
         text-decoration: none;
         color: $primary-very-dark-blue;
         padding: 5px;
     }
 
-    & > ul > li > ul > a:hover {
+    & > ul > li > ul > li:hover {
         font-weight: bolder;
     }
 }
@@ -137,9 +136,7 @@ li .nav-li {
     // padding: 50px;
     margin: 0;
     animation: slideInFromTheRight 2s ease-in-out ;
-
-   
-    
+  
     .branding {
         position: relative;
         padding: 100px;
@@ -179,9 +176,8 @@ li .nav-li {
         }
 
         a {
-            text-decoration: none;
+            color: #fff;
             padding: 10px;
-
         }
 
         a:hover {
@@ -195,7 +191,6 @@ li .nav-li {
             }
 
         }
-
 
         .nav-li {
             padding-bottom: 20px;
