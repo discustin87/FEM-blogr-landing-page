@@ -16,9 +16,7 @@
 
 }
 
-.container {
-    padding: 30px 150px;
-}
+
 
 // navbar
 .navbar {
@@ -172,7 +170,8 @@ li .nav-li {
 
         li {
             list-style: none;
-            color: #fff;
+            color: $primary-light-red;
+            font-size: larger;
         }
 
         a {

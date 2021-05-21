@@ -19,6 +19,10 @@ a {
   padding: 5px;
 }
 
+.container {
+  padding: 30px 150px;
+}
+
 .btn-light, .btn-dark {
   cursor: pointer;
   border: none;
@@ -62,10 +66,6 @@ a {
   height: 80vh;
   margin-bottom: 30px;
   border-radius: 0 0 0 100px;
-}
-
-.container {
-  padding: 30px 150px;
 }
 
 .navbar {
@@ -205,7 +205,8 @@ li .nav-li {
 
 .ham-menu .menu-body li {
   list-style: none;
-  color: #fff;
+  color: #ff525d;
+  font-size: larger;
 }
 
 .ham-menu .menu-body a {
@@ -478,7 +479,7 @@ footer {
   display: none;
 }
 
-@media (max-width: 964px) {
+@media (max-width: 1340px) {
   .desktop {
     display: none;
   }
