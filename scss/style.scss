@@ -1,0 +1,68 @@
+@import 'config';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8em;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Overpass', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+// btns
+
+%btn {
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 3px;
+    font-weight: bolder;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease-in-out;
+
+    }
+}
+
+.btn-light {
+    @extend %btn;
+    background: #fff;
+    color: $primary-light-red;
+
+    &:hover {
+        background: $primary-light-red;
+        border: 1px solid #fff;
+        color: #fff;
+    }
+}
+
+.btn-dark {
+    @extend %btn;
+    background: $primary-light-red;
+    border: 1px solid #fff;
+    color: #fff;
+
+    &:hover {
+        background: #fff;
+        color: $primary-light-red;
+    }
+}
+
+
+
+@import 'hero-menu';
+@import 'section-1';
+@import 'section-2';
+@import 'section-3';
+@import 'animation';
+@import 'footer';
+@import 'mobile';
+

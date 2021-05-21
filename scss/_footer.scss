@@ -1,0 +1,33 @@
+footer {
+    background-color: $neutral-very-dark-black-blue;
+    border-radius: 0 100px 0 0;
+    padding: 50px 0;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    h6 {
+        color: $neutral-white;
+        font-size: 1em;
+        padding-bottom: 20px;
+    }
+
+    a {
+        cursor: pointer;
+        color: rgb(206, 206, 206);
+        text-decoration: none;
+        padding: 10px 0;
+        font-weight: 100;
+        // font-size: 0.8em;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    li {
+        list-style: none;
+    }
+}

@@ -1,0 +1,41 @@
+.sec-1 {
+    position: relative;
+    overflow-x: hidden;
+
+
+    h3 {
+        margin: 50px 0;
+        padding-top: 100px;
+        text-align: center;
+        font-size: 1.8em;
+        color: $primary-very-dark-blue;
+        animation: fadeIn 2s ease-in-out ;
+    }
+}
+
+.sec-1-flex {
+    display: flex;
+    // height: 925px;
+
+    .col-1 {
+        padding: 0px 0px 180px 200px;
+        max-width: 700px;
+
+        h4 {
+            color: $primary-very-dark-blue;
+            font-size: 1.4em;
+            padding-bottom: 15px;
+        }
+
+        p {
+            padding-bottom: 50px;
+        }
+
+    }
+
+    .col-2 {
+        position: absolute;
+        top: 0;
+        right: -250px;
+    }
+}

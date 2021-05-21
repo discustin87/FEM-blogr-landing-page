@@ -1,0 +1,38 @@
+.sec-2 {
+    position: relative;
+    margin: 100px 0;
+    height: 60vh;
+    background-image:url(/img/bg-pattern-circles.svg), linear-gradient(
+        90deg,
+        $bg-Very-dark-gray-blue,
+        $bg-Very-dark-desaturated-blue
+    );
+    background-repeat: no-repeat;
+    background-position-y: 80%;
+    background-position-x: -42%;
+    border-radius: 0 90px 0 90px;
+}
+
+.sec-2-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    img {
+        position: absolute;
+        top: -18%;
+    }
+
+    .col-2 {
+        color: $neutral-white;
+
+        h4 {
+            font-weight: 1000;
+            font-size: 2em;
+            padding: 30px 0;
+        }
+
+        p {
+            max-width: 500px;
+        }
+    }
+}
