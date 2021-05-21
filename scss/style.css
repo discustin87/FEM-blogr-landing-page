@@ -527,7 +527,6 @@ footer {
     margin-top: 50px;
   }
   .sec-2 {
-    height: 90vh;
     background-position: bottom center;
     margin-bottom: 0;
   }
@@ -540,6 +539,7 @@ footer {
   .sec-2-grid img {
     width: 400px;
     top: -30%;
+    left: 30%;
     transform: translateX(30%) !important;
     transform: translateY(-50%) !important;
   }
@@ -584,10 +584,13 @@ footer {
     top: 90px;
     right: 0;
   }
+  .sec-2 {
+    height: 90vh;
+  }
   .sec-2-grid img {
     width: 400px;
     top: -30%;
-    right: 2px;
+    left: -5%;
   }
   .sec-3-grid {
     grid-template-columns: repeat(1, 1fr);
